@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "npmClient": "yarn",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "start:ui-patterns": "lerna run start:ui-patterns"
+  },
+  
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}

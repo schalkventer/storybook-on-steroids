@@ -1,0 +1,26 @@
+{
+  "name": "ui-patterns",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "start-storybook -p 9001 -c .storybook"
+  },
+  "dependencies": {
+    "@storybook/addon-knobs": "^5.1.10",
+    "@storybook/react": "^5.1.10",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "storybook-readme": "^5.0.6",
+    "utility-types": "^3.7.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "@types/storybook-readme": "^5.0.3",
+    "@types/storybook__react": "^4.0.2",
+    "@types/uuid": "^3.4.5",
+    "babel-loader": "^8.0.6",
+    "typescript": "^3.5.3"
+  }
+}
